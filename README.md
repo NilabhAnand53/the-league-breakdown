@@ -108,10 +108,6 @@ Player comparisons refer to the available player records rather than complete se
 | Combined innings runs | 20,944 |
 | Combined innings wickets | 799 |
 
-The match, run and wicket totals agree with the unfiltered dashboard cards shown in the project walkthrough.
-
-The player table contains 7,463 runs and 178 wickets. These totals do not reconcile to the match totals, indicating partial player-stat coverage.
-
 ## Repository layout
 
 ```text
