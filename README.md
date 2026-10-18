@@ -1,8 +1,8 @@
 # The League Breakdown | Excel Dashboard
 
-I built this learning project to summarize cricket team wins and player statistics in Excel. I used Power Query for data preparation, Power Pivot for data modeling, and DAX for calculations.
+The League Breakdown brings team wins, match totals and player statistics into two Excel dashboard pages. Charts, summary cards and slicers support comparisons across the available team and venue records.
 
-The report has separate team and player dashboard pages, with charts, summary cards and slicers for reviewing the available records.
+The project covers data preparation in Power Query, relationship modeling in Power Pivot, and calculations in DAX.
 
 ## Dataset
 
@@ -112,14 +112,17 @@ The match, run and wicket totals agree with the unfiltered dashboard cards shown
 
 The player table contains 7,463 runs and 178 wickets. These totals do not reconcile to the match totals, indicating partial player-stat coverage.
 
-## Limitations and next improvements
+## Repository layout
 
-- Revise team filtering to include appearances in both team positions before relying on team comparisons.
-- Retrieve winner names through Match_Winner. The documented RELATED expression follows Team1_ID.
-- Validate win type using innings order and result information. Comparing innings scores alone does not establish a win by runs or wickets.
-- Separate each team's runs from combined match runs.
-- Replace simple averages of strike rates with an aggregate calculation based on total runs and balls faced.
-- Calculate aggregate economy from runs conceded and legal balls bowled, with appropriate treatment of non-bowling records.
-- Convert cricket overs notation to balls before calculating bowling rates. For example, 3.2 overs represents 20 balls.
-- Use sorted bar charts for player comparisons and replace the economy pie chart with a chart suited to rates.
+```text
+the-league-breakdown/
+├── data/
+│   ├── README.md
+│   └── IPL_2025.xlsx
+├── reports/
+│   ├── README.md
+│   └── project.xlsx
+├── LICENSE
+└── README.md
+```
 
