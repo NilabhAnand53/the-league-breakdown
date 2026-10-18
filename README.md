@@ -123,16 +123,3 @@ The player table contains 7,463 runs and 178 wickets. These totals do not reconc
 - Convert cricket overs notation to balls before calculating bowling rates. For example, 3.2 overs represents 20 balls.
 - Use sorted bar charts for player comparisons and replace the economy pie chart with a chart suited to rates.
 
-## Repository layout
-
-```text
-the-league-breakdown/
-├── data/
-│   ├── README.md
-│   └── IPL_2025.xlsx
-├── reports/
-│   ├── README.md
-│   └── project.xlsx
-├── LICENSE
-└── README.md
-```
