@@ -131,37 +131,16 @@ The player table contains 7,463 runs and 178 wickets. These totals do not reconc
 - Convert cricket overs notation to balls before calculating bowling rates. For example, 3.2 overs represents 20 balls.
 - Use sorted bar charts for player comparisons and replace the economy pie chart with a chart suited to rates.
 
-These improvements are identified work, not completed corrections.
-
-## Project files
-
-The source workbook contains the five input tables. The build walkthrough documents the preparation steps, relationships, calculations and dashboard screenshots.
-
-The completed interactive dashboard workbook should be included separately so readers can inspect the model and test the filters in Excel.
-
-## What I practiced
-
-This project gave me practice in preparing multiple related tables, building an Excel Data Model, writing DAX calculations and connecting PivotTables to dashboard visuals.
-
-Reviewing the calculations also highlighted why relationship design, metric definitions and data coverage need to be checked before drawing conclusions from a dashboard.
-
 ## Repository layout
 
 ```text
 the-league-breakdown/
-├── README.md
 ├── data/
-│   ├── raw/
-│   │   └── league_source.xlsx
-│   └── processed/
-│       └── league_cleaned.xlsx
-├── dax/
-│   └── calculations.dax
-├── docs/
-│   └── league_build_walkthrough.docx
+│   ├── README.md
+│   └── IPL_2025.xlsx
 ├── reports/
-│   └── league_dashboard.xlsx
-└── screenshots/
-    ├── team_dashboard.png
-    └── player_dashboard.png
+│   ├── README.md
+│   └── project.xlsx
+├── LICENSE
+└── README.md
 ```
