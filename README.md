@@ -4,14 +4,6 @@ I built this learning project to summarize cricket team wins and player statisti
 
 The report has separate team and player dashboard pages, with charts, summary cards and slicers for reviewing the available records.
 
-## Project objectives
-
-- Compare recorded wins across teams.
-- Summarize match runs and wickets.
-- Review the distribution of matches across venues.
-- Compare player runs, wickets, strike rates and economy rates.
-- Use slicers to examine selected teams and venues.
-
 ## Dataset
 
 The source workbook contains five tables:
